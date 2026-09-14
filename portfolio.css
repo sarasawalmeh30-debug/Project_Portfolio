@@ -69,7 +69,7 @@ a:hover{
     grid-column: 1/2;
      grid-row: 3/4;
      width: 80px;
-     margin-left: 600px;
+     margin-left: 150px;
      background-color: #164A7A;
 }
 .div2{
@@ -88,6 +88,7 @@ a:hover{
     font-size: 21px;
     padding-left: 40px;
     margin-top: 50px;
+   
     
   
 }
@@ -105,9 +106,12 @@ grid-column: 1/2;
   border-left: 2px solid #2f80d0;
   padding-left: 30px;
 }
-
+.div2 ul span{
+    color: black;
+}
 ul{
     list-style: none;
+    
 
 }
 .div3{
@@ -123,9 +127,11 @@ ul{
     background-color:#E4f1fc ;
     width: 90%;
     margin-left:80px ;
-    padding-left: 40px;
+    padding-left: 15px;
+     padding-right: 15px;
     scroll-margin-top: 200px;
       font-size: 21px;
+      gap:15px;
   
 }
 
@@ -134,12 +140,34 @@ ul{
    grid-column: 1/2;
 }
 .div3 .p1{
+    border: 1px solid #164A7A;
+    background-color: white;
+    border-radius: 50px;
     padding-top: 30px;
+    text-align: center;
 grid-row: 2/3;
 grid-column: 1/2;
+height: 300px;
+box-shadow:20px 20px 30px #2f80d0 ;
+
 
 }
+.div3 .p2{
+    border: 1px solid #164A7A;
+    background-color: white;
+    border-radius: 50px;
+    padding-top: 30px;
+    text-align: center;
+grid-row: 2/3;
+grid-column: 2/3;
+height: 300px;
+box-shadow:20px 20px 30px #2f80d0 ;
 
+
+}
+.div3 button{
+    background-color: #164A7A;
+}
 .div3 ul{
 grid-row: 2/3;
 grid-column: 2/3;
@@ -159,9 +187,11 @@ padding-right: 30px;
     padding-top: 30px;
     width: 90%;
     margin-left:80px ;
-    padding-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
      scroll-margin-top: 170px;
      font-size: 21px;
+     gap:15px;
   
 }
 
@@ -169,13 +199,30 @@ padding-right: 30px;
    grid-row: 1/2;
    grid-column: 1/2;
 }
-.div4 .p{
-grid-row: 2/4;
+.div4 .p11{
+grid-row: 2/3;
 grid-column: 1/2;
 padding-top: 30px;
+border: 1px solid #164A7A;
+box-shadow:10px 10px 30px #2f80d0 ;
+border-radius: 50px;
+    height: 220px;
+    text-align: center;
 
 }
-
+.div4 .p22{
+grid-row: 2/3;
+grid-column: 2/3;
+padding-top: 30px;
+border: 1px solid #164A7A;
+box-shadow:10px 10px 30px #2f80d0 ;
+border-radius: 50px;
+   height: 220px;
+    text-align: center;
+}
+.div4 button{
+    background-color: #164A7A;
+}
 .div5{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -188,11 +235,11 @@ padding-top: 30px;
     padding-top: 30px;
     background-color:#E4f1fc ;
     width: 90%;
-    margin-left:80px ;
+    margin-left:80px;
     padding-left: 40px;
-     background-color:#E4f1fc ;
-      scroll-margin-top: 170px;
-      font-size: 18px;
+    background-color:#E4f1fc ;
+    scroll-margin-top: 170px;
+    font-size: 18px;
   
 }
 .div5 .span{
@@ -370,20 +417,14 @@ padding-top: 30px;
 grid-row: 2/3;
 padding-left: 150px;
 }
-.iconnone{
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-grid-column: 4/5;
-grid-row: 1/2;
-padding-left: 90px;
-}
 .footer p{
 grid-column: 2/4;
 grid-row: 3/4;
 padding-left: 200px;
 }
-
+.div7 a{
+    text-decoration: none;
+}
 
 
 @media (max-width:480px) {
@@ -453,6 +494,7 @@ justify-content: center;
      margin: 20px auto;
      display: block;
      
+     
 }
 .div2{
     display: grid;
@@ -490,8 +532,8 @@ ul{
 }
 .div3{
     display: grid;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: 1fr auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto auto;
     height: fit-content;
     border: 1px solid #2f80d0;
     border-radius: 40px;
@@ -507,14 +549,34 @@ ul{
    
 }
 .div3 .p1{
-    padding-top: 30px;
-grid-row: 2/3;
-grid-column: 1/2;
-font-size: 17px;
+     
+    border: 1px solid #164A7A;
+    background-color: white;
+    border-radius: 50px;
+    padding-top: 5px;
+    text-align: center;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    flex-direction: column;
+    height: fit-content;
+    box-shadow:20px 20px 30px #2f80d0 ;
 
 
 }
+.div3 .p2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #164A7A;
+    background-color: white;
+    border-radius: 50px;
+    padding-top: 5px;
+    text-align: center;
+grid-row: 3/4;
+grid-column: 1/2;
+height: fit-content;
+box-shadow:20px 20px 30px #2f80d0 ;
 
+}
 .div3 ul{
  grid-row: 3/4;
  grid-column: 1/2;
@@ -543,18 +605,32 @@ font-size: 17px;
    grid-row: 1/2;
    grid-column: 1/2;
 }
-.div4 .p1{
-    
+
+.div4 .p11{
+    font-size: 20px;
 grid-row: 2/3;
 grid-column: 1/2;
-font-size: 17px;
+padding-top: 10px;
+border: 1px solid #164A7A;
+box-shadow:10px 10px 30px #2f80d0 ;
+border-radius: 50px;
+    height: fit-content;
+    text-align: center;
 
 }
-.div4 img{
-   grid-row: 3/4;
+.div4 .p22{
+    font-size: 20px;
+grid-row: 3/4;
 grid-column: 1/2;
-width:250px;
+padding-top: 10px;
+border: 1px solid #164A7A;
+box-shadow:10px 10px 30px #2f80d0 ;
+border-radius: 50px;
+   height: fit-content;
+    text-align: center;
+    
 }
+
 .div5{
   display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -732,16 +808,7 @@ grid-row: 2/3;
 padding: 2px;
 
 }
-.iconnone{
-    display: flex;
-    flex-direction: row;
-grid-column: 1/2;
-grid-row: 1/2;
-padding-left: 0;
-justify-content: center;
-padding-bottom: 20px;
 
-}
 .footer p{
 grid-column: 1/2;
 grid-row: 3/4;
@@ -807,8 +874,8 @@ padding: 0;
 }
 .div1 img{
     
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     display: block;
     margin: 20px auto;
@@ -832,7 +899,7 @@ display: block;
     border: 1px solid #2f80d0;
     border-radius: 40px;
     box-shadow: 20px 20px 30px #2f80d0;
-     font-size: 30px;
+     font-size: 20px;
   
 }
 .div .About{
@@ -865,7 +932,7 @@ ul{
     border-radius: 40px;
     box-shadow: 20px 20px 30px #2f80d0;
     background-color:#E4f1fc ;
-      font-size: 30px;
+      font-size: 20px;
     
 }
 
@@ -875,11 +942,32 @@ ul{
    
 }
 .div3 .p1{
-    padding-top: 30px;
-grid-row: 2/3;
+     
+    border: 1px solid #164A7A;
+    background-color: white;
+    border-radius: 50px;
+    padding-top: 5px;
+    text-align: center;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    flex-direction: column;
+    height: fit-content;
+    box-shadow:20px 20px 30px #2f80d0 ;
+
+
+}
+.div3 .p2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #164A7A;
+    background-color: white;
+    border-radius: 50px;
+    padding-top: 5px;
+    text-align: center;
+grid-row: 3/4;
 grid-column: 1/2;
-
-
+height: fit-content;
+box-shadow:20px 20px 30px #2f80d0 ;
 
 }
 
@@ -888,7 +976,7 @@ grid-column: 1/2;
  grid-column: 1/2;
  display: flex;
  flex-direction: column;
- font-size: 24px;
+ font-size: 16px;
  border-left: none;
  gap:7px;
  
@@ -901,7 +989,7 @@ grid-column: 1/2;
     border: 1px solid #2f80d0;
     border-radius: 40px;
     box-shadow: 20px 20px 20px #2f80d0;
-  font-size: 30px;
+  font-size: 20px;
   padding-bottom: 30px;
   
 }
@@ -910,12 +998,29 @@ grid-column: 1/2;
    grid-row: 1/2;
    grid-column: 1/2;
 }
-.div4 .p1{
-    padding-top: 20px;
+.div4 .p11{
+    font-size: 20px;
 grid-row: 2/3;
 grid-column: 1/2;
+padding-top: 10px;
+border: 1px solid #164A7A;
+box-shadow:10px 10px 30px #2f80d0 ;
+border-radius: 50px;
+    height: fit-content;
+    text-align: center;
 
-
+}
+.div4 .p22{
+    font-size: 20px;
+grid-row: 3/4;
+grid-column: 1/2;
+padding-top: 10px;
+border: 1px solid #164A7A;
+box-shadow:10px 10px 30px #2f80d0 ;
+border-radius: 50px;
+   height: fit-content;
+    text-align: center;
+    
 }
 .div4 img{
     grid-row: 3/4;
@@ -929,7 +1034,7 @@ grid-column: 1/2;
     border: 1px solid #2f80d0;
     border-radius: 40px;
     box-shadow: 20px 20px 20px #2f80d0;
-    font-size: 30px;
+    font-size: 20px;
   
 }
 .div5 .span{
@@ -975,7 +1080,7 @@ grid-column: 1/2;
     border-radius: 40px;
     box-shadow: 20px 20px 30px #2f80d0;
     gap:3px;
-     font-size: 30px;
+     font-size: 20px;
     
 
 }
@@ -1001,7 +1106,7 @@ grid-column: 1/2;
     grid-row: 2/3;
     grid-column: 1/2;
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
 }
 .div6 .proj2{
     display: flex;
@@ -1013,7 +1118,7 @@ grid-column: 1/2;
     grid-column: 1/2;
      width: fit-content;
 text-align: center;
-font-size: 20px;
+font-size: 17px;
 }
 .div6 .proj3{
     display: flex;
@@ -1026,7 +1131,7 @@ font-size: 20px;
  width: fit-content;
  text-align: center;
  padding-bottom: 10px;
- font-size: 20px;
+ font-size: 17px;
 }
 .div6 a{
     padding:8px;
@@ -1043,7 +1148,7 @@ font-size: 20px;
     gap:40px;
     
     padding-left: 10px;
- font-size: 30px;
+ font-size: 20px;
   
 }
 .div7 .Reference{
@@ -1082,7 +1187,7 @@ font-size: 20px;
     border-radius: 40px;
     box-shadow: 20px 20px 30px #2f80d0;
     background-color: #E4f1fc;
-     font-size: 30px;
+     font-size: 20px;
     
 }
 .icon1{
@@ -1094,16 +1199,8 @@ grid-row: 2/3;
 padding: 2px;
 
 }
-.iconnone{
-    display: flex;
-    flex-direction: row;
-grid-column: 1/2;
-grid-row: 1/2;
-padding-left: 0;
-justify-content: center;
-padding-bottom: 20px;
 
-}
+
 .footer p{
 grid-column: 1/2;
 grid-row: 3/4;
