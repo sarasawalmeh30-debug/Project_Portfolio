@@ -111,10 +111,10 @@ ul{
     width: 90%;
     margin-left:80px ;
     padding-left: 15px;
-     padding-right: 15px;
+    padding-right: 15px;
     scroll-margin-top: 200px;
-      font-size: 21px;
-      gap:15px; 
+    font-size: 21px;
+    gap:15px; 
 }
 .div3 .Experience{
    grid-row: 1/2;
@@ -387,13 +387,11 @@ justify-content: center;
     }
     body{
         width: 100%;
-        overflow-x: hidden;
          padding-top: 0;
          margin: 0;
     }
     .div2,.div3,.div3,.div4,.div5,.div6,.div7,.footer{
         width: 90%;
-        max-width: 100%;
         margin: 20px auto;
         padding-left: 10px;
         padding-right: 10px;
@@ -484,7 +482,8 @@ grid-column: 1/2;
     grid-column: 1/2;
     flex-direction: column;
     height: fit-content;
-    box-shadow:20px 20px 30px #2f80d0 ;
+    box-shadow:8px 8px 8px #2f80d0 ;
+    margin-right: 15px;
 }
 .div3 .p2{
     display: flex;
@@ -497,7 +496,8 @@ grid-column: 1/2;
 grid-row: 3/4;
 grid-column: 1/2;
 height: fit-content;
-box-shadow:20px 20px 30px #2f80d0 ;
+box-shadow:8px 8px 8px #2f80d0 ;
+margin-right: 15px;
 }
 .div4{
    display: grid;
@@ -520,10 +520,11 @@ grid-row: 2/3;
 grid-column: 1/2;
 padding-top: 10px;
 border: 1px solid #164A7A;
-box-shadow:10px 10px 30px #2f80d0 ;
+box-shadow:8px 8px 8px #2f80d0 ;
 border-radius: 50px;
     height: fit-content;
     text-align: center;
+    margin-right: 15px;
 }
 .div4 .p22{
     font-size: 16px;
@@ -531,10 +532,11 @@ grid-row: 3/4;
 grid-column: 1/2;
 padding-top: 10px;
 border: 1px solid #164A7A;
-box-shadow:10px 10px 30px #2f80d0 ;
+box-shadow:8px 8px 8px #2f80d0 ;
 border-radius: 50px;
    height: fit-content;
-    text-align: center;   
+    text-align: center; 
+     margin-right: 15px;  
 }
 .div5{
   display: grid;
@@ -651,11 +653,11 @@ font-size: 18px;
 .div7 .Reference{
     display: flex;
     flex-direction: column;
-      grid-row:1/2 ;
+    grid-row:1/2 ;
     grid-column:1/2;
 }
 .div7 .Reference_1{
-     display: flex;
+    display: flex;
     flex-direction: column;
     grid-row:2/3 ;
     grid-column:1/2 ;
@@ -691,7 +693,7 @@ font-size: 18px;
 .icon1{
  display: flex;
 flex-direction: column;
-    grid-column: 1/2;
+grid-column: 1/2;
 grid-row: 2/3;
 padding: 2px;
 }
@@ -710,7 +712,7 @@ padding: 0;
     }
     body{
         width: 100%;
-        overflow-x: hidden;
+       
          padding-top: 0;
     }
     .div2,.div3,.div3,.div4,.div5,.div6,.div7,.footer{
