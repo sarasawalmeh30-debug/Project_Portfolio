@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Sara</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,92 +15,81 @@
 </head>
 <body>
    
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-       
-  
-    <div class="container-fluid">
-      <img src="img/sara.jpeg">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <span> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</span>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-         <li class="nav-item n">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item n">
-          <a class="nav-link " href="#About">About</a>
-        </li>
-        <li class="nav-item n">
-          <a class="nav-link" href="#Experience">Experience</a>
-        </li>
-        <li class="nav-item n">
-          <a class="nav-link" href="#Qualification">Qualification</a>
-        </li>
-        <li class="nav-item n">
-          <a class="nav-link "  href="#Skills">Skills</a>
-        </li>
-        <li class="nav-item n">
-          <a class="nav-link " href="#Projects">Projects</a>
-        </li>
-        <li class="nav-item n">
-          <a class="nav-link "  href="#References">References</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-lg portfolio-nav">
+      <div class="container-fluid nav-inner">
+        <a class="brand" href="#Home" aria-label="Sara Sawalmeh home">
+          <span class="brand-mark">S</span>
+          <span class="brand-copy"><strong>Sara Sawalmeh</strong><small>Computer Engineer</small></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#Home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Qualification">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#References">References</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+ 
+<main>
+<section class="div1 hero" id="Home">
+  <div class="hero-dots" aria-hidden="true"></div>
+  <div class="totalsection hero-copy">
+    <span class="hero-kicker"><span class="status-dot"></span> OPEN TO NEW OPPORTUNITIES</span>
+    <h1 class="heder">Sara <span>Sawalmeh</span></h1>
+    <p class="hero-role">Computer Engineer <span>·</span> Full Stack Developer</p>
+    <p class="pargraf1">I turn thoughtful ideas into useful digital experiences — and see every problem as a chance to build something better.</p>
+    <div class="hero-actions">
+      <a class="btn hero-primary" href="#Projects" >Explore my work <span aria-hidden="true">↗</span></a>
+      <a class="btn hero-secondary" href="https://canva.link/bihfsyumkrdmxga" target="_blank" rel="noopener noreferrer">View resume <span aria-hidden="true">↓</span></a>
     </div>
   </div>
-</nav>
- 
-<div class="div1">
-  <div class="totalsection">
-    <div  class="heder">Sara Sawalmeh</div> 
-     <div class="pargraf1" >Computer Engineer | Full Stack Developer<br>
-       believe every problem is an opportunity to learn, create, and build something better.</div>
-       <br>
-      <a href="https://canva.link/bihfsyumkrdmxga" target="_blank"><button type="button" class="btn btn-secondary">Resume</button></a>
-      
+  <div class="hero-visual">
+    <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+    <div class="portrait-frame"><img src="img/personal1.jpeg" alt="Sara Sawalmeh"></div>
+    <div class="float-glass-card float-card-role"><span class="float-card-icon">&lt;/&gt;</span><span><strong>Full Stack Developer</strong><small>Web development</small></span></div>
+    <div class="float-glass-card float-card-study"><span class="float-card-icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span><span><strong>Computer Engineering</strong><small>Yarmouk University · 2026</small></span></div>
   </div>
-  <img src="img/personal1.jpeg">
-</div>
+</section>
 <div class="div2" id="About">
     <i class="fa fa-user  About tital" ><span> &nbsp About</span></i>
-    <br>
-    <br>
-    <p>I'm Sara Sawalmeh, a Computer Engineering graduate from Yarmouk University. 
-       I enjoy turning ideas into real projects and building practical solutions. 
-       I'm always eager to learn new technologies, improve my skills, 
-       and grow in the tech field.</p>
-       <ul>
-    
-         <li ><i class="fa fa-graduation-cap icon">&nbsp<span>Yarmouk University</span> </i>  </li>
-    <li><i class="fa fa-map-marker icon">&nbsp <span>Irbid, Jordan</span> </i></li>
-    <li><i class="fa fa-envelope icon" >&nbsp<a style="text-decoration: none;" target="_blank" href="sarasawalmeh885@gmail.com"><span>sarasawalmeh885@gmail.com</span></a></i></li>
-    <li><i class="fa fa-calendar icon">&nbsp<span>Graduate 2026</span> </i></li>
-    
-       </ul>
+    <div class="about-copy">
+      <p>I’m a Computer Engineering graduate with a broad foundation in technology and a growing focus on web development.</p>
+      <p>My studies introduced me to computer networks, embedded systems, data structures, operating systems, parallel programming, and computer organization. Along the way, I discovered how much I enjoy building for the web—from shaping an idea to solving the small details and seeing it come to life.</p>
+      <p>I’m always learning, experimenting, and looking for thoughtful ways to make technology more useful.</p>
+    </div>
+    <aside class="about-details-panel" aria-label="A few details">
+      <ul class="about-details">
+        <li><span class="about-detail-icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span><span class="about-detail-copy"><small>Education</small><strong>Yarmouk University</strong></span></li>
+        <li><span class="about-detail-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span><span class="about-detail-copy"><small>Based in</small><strong>Irbid, Jordan</strong></span></li>
+        <li><span class="about-detail-icon"><i class="fa fa-envelope" aria-hidden="true"></i></span><span class="about-detail-copy"><small>Email</small><a href="mailto:sarasawalmeh885@gmail.com">sarasawalmeh885@gmail.com</a></span></li>
+        <li><span class="about-detail-icon"><i class="fa fa-calendar" aria-hidden="true"></i></span><span class="about-detail-copy"><small>Graduation</small><strong>Class of 2026</strong></span></li>
+      </ul>
+    </aside>
    
 </div>
 
 <div class="div3"id="Experience">
     <i class="fa fa-briefcase  Experience tital" ><span> &nbsp Experience</span></i>
-    <br>
    <div class="p1">
-    <p  style="font-size: 25px;"><b>Full-stack web Developer</b></p>
-    <p> Web Development Trainee — Orange Digital Village (ODV),<br>
+    <h3>Full-stack web Developer</h3>
+    <p>Web Development Trainee — Orange Digital Village (ODV),<br>
      Orange Jordan × Princess Sumaya University for Technology (PSUT)</p>
-      <br>
-      <br>
-
-      <a href="https://drive.google.com/file/d/1_aZCETJu_50LONexfxcGi90TAccU4Rtl/view?usp=drivesdk" target="_blank"><button  type="button" class="btn btn-secondary">Read more</button></a></p>
+      <a class="btn experience-link" href="https://drive.google.com/file/d/1_aZCETJu_50LONexfxcGi90TAccU4Rtl/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">Read more</a>
     </div>
 <div class="p2">
-  <p style="font-size: 25px;"><b>Stamp Making Workshop</b></p>
+  <h3>Stamp Making Workshop</h3>
   <p>Participated in a hands-on stamp-making workshop at Orange Digital Village, 
     learning the basic process of designing and creating custom stamps using digital 
-    fabrication tools.</p><br>
-    <br>
-    <a href="https://drive.google.com/drive/folders/1jBFOgVEUS3QQ1HnPVDTqHMNEm5QnNGrv" target="_blank"><button type="button" class="btn btn-secondary">View Workshop</button></a></p>
+    fabrication tools.</p>
+    <a class="btn experience-link" href="https://drive.google.com/drive/folders/1jBFOgVEUS3QQ1HnPVDTqHMNEm5QnNGrv" target="_blank" rel="noopener noreferrer">View Workshop</a>
     </div>
 </div>
        
@@ -105,8 +97,6 @@
 </div>
 <div class="div4"id="Qualification">
     <i class="fa fa-solid fa-graduation-cap  Qualification tital"><span> &nbsp Qualification</span></i>
-    <br>
-    <br>
     <div class="p11">
     <p>BSc. in Computer Engineering <br>Yarmouk University |2026 <br>
       GPA : 80.7</p>
@@ -124,12 +114,12 @@
       <i class="fa fa-cog  " aria-hidden="true">&nbsp Technical Skills</i>
       <br>
       <span class="span"><i class="fa fa-solid fa-microchip"></i>&nbsp Arduino</span>
-      <span  class="span"><i class="fa fa-microchip"></i>&nbsp GPU|Paralle Programming</span>
+      <span class="span"><i class="fa fa-microchip" aria-hidden="true"></i>&nbsp GPU &amp; Parallel Programming</span>
       <span  class="span"><i class="fa fa-file"></i>&nbsp C#</span>
       <span  class="span"><i class="fab fa-python"></i>&nbsp Python</span>
       <span  class="span"><i class="fa fa-solid fa-database" ></i>&nbsp SQL</span>
       <span  class="span"><i class="fa fa-solid fa-code"></i> &nbsp HTML</span>
-      <span  class="span"><i class="fab fa-java"></i>&nbsp JavaScript</span>
+      <span class="span"><i class="fab fa-js" aria-hidden="true"></i>&nbsp JavaScript</span>
       <span  class="span"><i class="fab fa-css3-alt"></i>&nbsp CSS</span>
     </p>
       
@@ -200,14 +190,30 @@
 <br>
 <br>
 <footer class="footer" id="footer">
-    <div class="icon1">
-<a href="0772289385" target="_blank"><i class="fa fa-phone">&nbsp 0772289385</i></a>
-<a href="https://github.com/sarasawalmeh30-debug" target="_blank"><i class="fab fa-github">&nbsp github.sara sawalmeh</i></a>
-
-<a href="https://www.linkedin.com/in/sara-sawalmeh-1b9399256?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><i class="fab fa-linkedin">&nbsp Sara Sawalmeh</i></a>
-</div>
-
-<p class="copy">© 2026 Sara Sawalmeh. All Rights Reserved.</p>
+  <div class="footer-main">
+    <div class="footer-message"><p class="footer-eyebrow">HAVE A PROJECT IN MIND?</p><h2>Good ideas start<br><em>with a hello.</em></h2><a class="footer-email" href="mailto:sarasawalmeh885@gmail.com">sarasawalmeh885@gmail.com <span aria-hidden="true">↗</span></a></div>
+    <div class="footer-links"><span class="footer-eyebrow">FIND ME AROUND</span>
+      <a href="tel:+962772289385"><i class="fa fa-phone" aria-hidden="true"></i> +962 7 7228 9385</a>
+      <a href="https://github.com/sarasawalmeh30-debug" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub <span>↗</span></a>
+      <a href="https://www.linkedin.com/in/sara-sawalmeh-1b9399256?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn <span>↗</span></a>
+    </div>
+  </div>
+  <div class="footer-bottom"><span>© 2026 Sara Sawalmeh</span><span>Designed with curiosity in Jordan</span><a class="back-top" href="#Home" aria-label="Back to top">↑</a></div>
 </footer>
+</main>
+<script>
+  const hero = document.querySelector('.hero');
+  if (hero) {
+    hero.addEventListener('pointermove', (event) => {
+      const bounds = hero.getBoundingClientRect();
+      hero.style.setProperty('--pointer-x', `${((event.clientX - bounds.left) / bounds.width) * 100}%`);
+      hero.style.setProperty('--pointer-y', `${((event.clientY - bounds.top) / bounds.height) * 100}%`);
+    });
+    hero.addEventListener('pointerleave', () => {
+      hero.style.setProperty('--pointer-x', '50%');
+      hero.style.setProperty('--pointer-y', '50%');
+    });
+  }
+</script>
 </body>
 </html>
